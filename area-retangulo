@@ -1,0 +1,4 @@
+b = float(input("informar o valor da base: "))
+h = float(input("informar o valor da altura: "))
+a = b * h
+print(f"O valor da área do retangulo é, {a}")
