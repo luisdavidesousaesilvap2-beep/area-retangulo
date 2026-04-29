@@ -1,0 +1,26 @@
+#Numeros positivos
+num1 = float(input("Digite o primeiro número positivo: "))
+num2 = float(input("Digite o segundo número positivo: "))
+
+print("\nMenu:")
+print("1. Média ponderada (pesos 2 e 3)")
+print("2. Quadrado da soma dos 2 números")
+print("3. Cubo do menor número")
+
+opcao = int(input("Escolha uma opção: "))
+
+if opcao == 1:
+    media = (num1 * 2 + num2 * 3) / 5
+    print("Resultado:", media)
+
+elif opcao == 2:
+    resultado = (num1 + num2) ** 2
+    print("Resultado:", resultado)
+
+elif opcao == 3:
+    menor = min(num1, num2)
+    resultado = menor ** 3
+    print("Resultado:", resultado)
+
+else:
+    print("Opção inválida")
